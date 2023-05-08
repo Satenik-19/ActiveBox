@@ -1,0 +1,15 @@
+.images:hover .text p,
+.images:hover h5 {
+  visibility: visible;
+}
+.images:hover .text p {
+  bottom: calc(45% - 25px);
+}
+.images:hover .text h5 {
+  top: calc(50% - 25px);
+}
+.images:hover .red_bcg {
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+}

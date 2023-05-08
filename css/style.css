@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700);
+@import url(http://fonts.googleapis.com/css?family=Cardo:400,400italic,700);
+
+@import url(header.css);
+@import url(white_space_section.css);
+@import url(images_section.css);
+@import url(team_section.css);
+@import url(footer+download.css);
+@import url(slider.css);
+
+@import url(../sass/sass.css);
+@import url(../sass/images_section.css);
+
+.baguetteBox-button#next-button,
+.baguetteBox-button#previous-button {
+  display: none;
+}

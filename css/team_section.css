@@ -1,0 +1,94 @@
+.container_for_team {
+  padding: 100px 0;
+}
+.row_for_team {
+  margin: auto;
+  margin: 0;
+}
+.person_content {
+  text-align: left !important;
+}
+.person {
+  padding-bottom: 50px;
+}
+
+.person_content > h5,
+.person_content > h4,
+.person_content > p {
+  margin: 10px 0;
+  font-weight: 400;
+  text-align: left;
+  width: 95%;
+  font-family: "Raleway", sans-serif;
+}
+
+.person_content > h5 {
+  color: #e84545;
+  font-size: 13px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.person_content > h4 {
+  color: #2d3033;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.person_content a,
+.footer_a a:not(a:last-child) {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #c6cacc;
+  border-radius: 2px;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.person_content a:hover,
+.footer_a a:hover {
+  background-color: rgba(232, 69, 69, 1) !important;
+  border-color: transparent !important;
+}
+.person_content a:nth-child(4),
+.footer_a a:nth-child(1) {
+  background: rgba(232, 69, 69, 0) url(../svg/facebook-fill.svg) no-repeat
+    center;
+}
+.person_content a:nth-child(5),
+.footer_a a:nth-child(2) {
+  background: rgba(232, 69, 69, 0) url(../svg/twitter.svg) no-repeat center;
+}
+.person_content a:nth-child(6),
+.footer_a a:nth-child(3) {
+  background: rgba(232, 69, 69, 0) url(../svg/linkedin-v2-fill.svg) no-repeat
+    center;
+}
+.person_content a:nth-child(7),
+.footer_a a:nth-child(4) {
+  background: rgba(232, 69, 69, 0) url(../svg/social-google-plus.svg) no-repeat
+    center;
+}
+.person_content a:nth-child(8) {
+  background: rgba(232, 69, 69, 0) url(../svg/dribble.svg) no-repeat center;
+}
+
+@media screen and (max-width: 992px) {
+  .person_content > h5,
+  .person_content > h4,
+  .person_content > p {
+    text-align: center;
+  }
+  .person_content a:nth-child(4) {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .person img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .person_content a:nth-child(4) {
+    margin-left: 25%;
+  }
+}

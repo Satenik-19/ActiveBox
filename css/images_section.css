@@ -1,0 +1,70 @@
+.images {
+  height: 350px;
+  box-sizing: border-box;
+  border: 0.5px solid white;
+  overflow: hidden;
+  padding: 0;
+}
+.red_bcg {
+  background-color: rgba(232, 69, 69, 0.9);
+  opacity: 0;
+  height: 100%;
+  transition: all 0.3s;
+}
+.text {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.text p, .text h5 {
+  visibility: hidden;
+  color: white;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s;
+  display: inline-block;
+  width: 300px;
+  height: 50px;
+}
+.text p {
+  left: calc(50% - 150px);
+  bottom: 35%;
+  margin-top: 0;
+}
+.text h5 {
+  left: calc(50% - 150px);
+  top: 35%;
+}
+.images div[class^="image"] {
+  transition: transform 0.5s;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.images:hover > div[class^="image"] {
+  transform: scale(1.2);
+}
+.image1 {
+  background-image: url(../images/work-1.jpg);
+}
+.image2 {
+  background-image: url(../images/work-2.jpg);
+}
+.image3 {
+  background-image: url(../images/work-3.jpg);
+}
+.image4 {
+  background-image: url(../images/work-4.jpg);
+}
+.image5 {
+  background-image: url(../images/work-5.jpg);
+}
+.image6 {
+  background-image: url(../images/work-6.jpg);
+}
+.image7 {
+  background-image: url(../images/work-7.jpg);
+}
+.image8 {
+  background-image: url(../images/work-8.jpg);
+}

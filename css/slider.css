@@ -1,0 +1,293 @@
+.left_picture {
+  height: 700px;
+  background-image: url(../images/testimonial-1.jpg);
+  animation-name: pictures;
+  background-position: center top;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+.right_text {
+  height: 700px;
+  background-color: #53354a;
+  position: relative;
+}
+.author {
+  text-transform: uppercase;
+  font: 13px "Raleway", sans-serif !important;
+  font-weight: 600 !important;
+  text-align: left;
+  padding-top: 30px !important;
+}
+.blockquote1,
+.blockquote2 {
+  position: absolute;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.blockquote1 p,
+.blockquote2 p {
+  font: italic 36px "Cardo", Georgia, "Times New Roman", serif;
+  color: white;
+  padding-top: 100px;
+  padding-left: 50px;
+  text-align: left;
+}
+.blockquote1 {
+  animation-name: blockquote1;
+  visibility: visible;
+  opacity: 1;
+}
+.blockquote2 {
+  animation-name: blockquote2;
+  animation-delay: 5s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@keyframes pictures {
+  10% {
+    background: url(../images/testimonial-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  20% {
+    background: url(../images/testimonial-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  30% {
+    background: url(../images/testimonial-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  40% {
+    background: url(../images/testimonial-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  50% {
+    background: url(../images/testimonial-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  60% {
+    background: url(../images/testimonial-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  70% {
+    background: url(../images/testimonial-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  80% {
+    background: url(../images/testimonial-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  90% {
+    background: url(../images/testimonial-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+  100% {
+    background: url(../images/testimonial-1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+}
+@keyframes blockquote1 {
+  10% {
+    visibility: visible;
+    opacity: 1;
+  }
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  30% {
+    visibility: visible;
+    opacity: 1;
+  }
+  40% {
+    visibility: visible;
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+  60% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  70% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  80% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  90% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+@keyframes blockquote2 {
+  10% {
+    visibility: visible;
+    opacity: 1;
+  }
+  20% {
+    visibility: visible;
+    opacity: 1;
+  }
+  30% {
+    visibility: visible;
+    opacity: 1;
+  }
+  40% {
+    visibility: visible;
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+    opacity: 1;
+  }
+  60% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  70% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  80% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  90% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 130px;
+  left: calc(50% - 20px);
+  animation-name: circle1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.circle::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #755d6e;
+  border-radius: 50%;
+  left: 20px;
+  top: 0;
+  animation-name: circle2;
+  animation-duration: 10s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circle1 {
+  10% {
+    background-color: white;
+  }
+  20% {
+    background-color: white;
+  }
+  30% {
+    background-color: white;
+  }
+  40% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+  60% {
+    background-color: #755d6e;
+  }
+  70% {
+    background-color: #755d6e;
+  }
+  80% {
+    background-color: #755d6e;
+  }
+  90% {
+    background-color: #755d6e;
+  }
+  100% {
+    background-color: #755d6e;
+  }
+}
+@keyframes circle2 {
+  10% {
+    background-color: white;
+  }
+  20% {
+    background-color: white;
+  }
+  30% {
+    background-color: white;
+  }
+  40% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+  60% {
+    background-color: #755d6e;
+  }
+  70% {
+    background-color: #755d6e;
+  }
+  80% {
+    background-color: #755d6e;
+  }
+  90% {
+    background-color: #755d6e;
+  }
+  100% {
+    background-color: #755d6e;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .right_text {
+    height: 200px;
+  }
+  .blockquote1 p,
+  .blockquote2 p {
+    font-size: 25px;
+    padding: 0;
+  }
+  .circle {
+    bottom: 40px;
+    left: calc(70% - 20px);
+  }
+}

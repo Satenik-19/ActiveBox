@@ -1,0 +1,17 @@
+.images:hover {
+  .text p,
+  h5 {
+    visibility: visible;
+  }
+  .text p {
+    bottom: calc(45% - 25px);
+  }
+  .text h5 {
+    top: calc(50% - 25px);
+  }
+  .red_bcg {
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+  }
+}

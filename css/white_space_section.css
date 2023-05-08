@@ -1,0 +1,50 @@
+@import url(../sass/sass.css);
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section_white_space {
+  padding: 100px 0;
+}
+h5 {
+  color: #2d3033;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+p {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #6c7279;
+}
+.icon {
+  width: 60px;
+  height: 90px;
+}
+.icon1 {
+  background: url(../svg/tools.svg) no-repeat;
+}
+.icon2 {
+  background: url(../svg/desktop.svg) no-repeat;
+}
+.icon3 {
+  background: url(../svg/lightbulb.svg) no-repeat;
+}
+.icon4 {
+  background: url(../svg/genius.svg) no-repeat;
+}
+.icon5 {
+  background: url(../svg/briefcase.svg) no-repeat;
+}
+.icon6 {
+  background: url(../svg/download.svg) no-repeat;
+}
